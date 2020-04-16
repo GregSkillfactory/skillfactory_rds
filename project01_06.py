@@ -1,6 +1,6 @@
-print('Угадаю число от 1 до -')
-uppBrd = int(input())
 from random import random
+print('Угадаю число от 1 до ... (введите верхнюю границу)')
+uppBrd = int(input())
 num = int(random() * uppBrd)
 print('Загадано число от 1 до', uppBrd, 'Это -', num)
 
@@ -16,4 +16,4 @@ while num != mid:
     elif num < mid:
         num2 = mid
 
-print("Вы угадали число {num} за {count} попыток.")
+print(f"Вы угадали число {num} за {count} попыток.")
