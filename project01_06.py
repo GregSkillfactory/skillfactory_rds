@@ -6,7 +6,7 @@ print('Загадано число от 1 до', uppBrd, 'Это -', num)
 
 num1 = 0
 num2 = uppBrd
-count = 1
+count = 0
 mid = 0
 while num != mid:
     count += 1
